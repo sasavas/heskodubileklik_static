@@ -1,3 +1,9 @@
+# Heskodubileklik.com
+
+This website is hosted on netlify. 
+Every push to the main branch triggers a new release of the website.
+
+
 # Switch
 
 A landing page template.
