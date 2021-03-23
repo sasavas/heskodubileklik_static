@@ -5,7 +5,7 @@
 }
  .wrapper {
 	 margin-top: 5%;
-	 width: 60%;
+	 width: 70%;
 	 display: flex;
 	 justify-content: center;
 	 font-family: "Arimo";
@@ -26,7 +26,7 @@
 	}
 }
  .container {
-	 width: 65%;
+	 width: 90%;
 	 padding: 5% 10%;
 }
  h1 {
@@ -41,21 +41,18 @@
  form input {
 	 width: 100%;
 	 min-height: 25px;
-	 border: 0;
 	 font-size: 1rem;
-	 letter-spacing: 0.15rem;
 	 font-family: "Arimo";
 	 margin-top: 5px;
-     padding-top: 0.4rem;
-     padding-bottom: 0.4rem;
+     padding: 0.4rem;
 	 color: #8e2807;
+	 border: 0;
 	 border-radius: 4px;
      -webkit-box-shadow: 2px 2px  4px 2px rgba(0, 0, 0, 0.18);
 	 -moz-box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.18);
 	 box-shadow: 2px 2px  4px 2px rgba(0, 0, 0, 0.18);
 }
  form label {
-	 /* text-transform: uppercase; */
 	 font-size: 12px;
 	 letter-spacing: 2px;
 	 color: #8e2807;
@@ -64,7 +61,7 @@
 	 font-size: 24px;
 	 line-height: 10px;
 	 color: #493b76;
-	 letter-spacing: 1px;
+	 /* letter-spacing: 1px; */
 }
  form h1:nth-of-type(2) {
 	 margin-top: 10%;
@@ -172,10 +169,15 @@
     .col-3 .date-field, .col-3 .ccv {
         width: 100%;
     }
+
+	form input {
+		box-shadow: none;
+		border: 1px solid black;
+	}
 	
 	 input {
 		 margin: 5px 0;
-		 min-height: 30px;
+		 min-height: 30px;		 
 	}
 }
  
